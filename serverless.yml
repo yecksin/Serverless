@@ -9,9 +9,10 @@ provider:
 
 functions:
   api:
-    handler: handler.handler
+    handler: src/handler.handler
     events:
       - httpApi: '*'
 plugins:
   - serverless-offline
-  - serverless-plugin-typescript
+  - 'serverless-plugin-typescript-express'
+
