@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "serverless offline",
     "build": "node_modules/.bin/tsc -pretty -p .",
-    "start": "serverless offline start"
+    "start": "serverless offline start",
+    "deplot": "serverless deploy"
   },
   "dependencies": {
     "@types/express": "^4.17.13",
